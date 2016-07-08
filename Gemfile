@@ -5,6 +5,10 @@ source 'https://rubygems.org'
 gem 'rails', '5.0.0'
 # Devise gem for authentication
 gem 'devise'
+# Twitter Bootstrap
+gem 'twitter-bootstrap-rails'
+# Devise with twitter gem
+gem 'devise-bootstrap-views'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
