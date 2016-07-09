@@ -9,6 +9,10 @@ gem 'devise'
 gem 'twitter-bootstrap-rails'
 # Devise with twitter gem
 gem 'devise-bootstrap-views'
+# Used to retrieve Stock Prices
+gem 'stock_quote'
+# Awesome Print for Pretty Printing
+gem 'awesome_print'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
