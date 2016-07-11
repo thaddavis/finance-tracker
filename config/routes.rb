@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  devise_for :users
+  devise_for :users, :controllers => { :registrations => "user/registrations" }
 
   delete 'delete_my_stock', to: "user_stocks#delete_my_stock", method: :delete
   resources :user_stocks, except: [:show, :edit, :update, :delete]
